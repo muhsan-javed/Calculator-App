@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.muhsantech.calculator_app"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.muhsantech.calculator_app"

@@ -13,6 +13,13 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        
+        binding.btnPlus.setOnClickListener {
+            val inputTextOne = binding.edInput1.text.toString().toInt()
+            val inputTextTwo = binding.edInput2.text.toString().toInt()
+
+            val result = inputTextOne + inputTextTwo
+
+            binding.resultTextView.text = result.toString()
+        }
     }
 }
