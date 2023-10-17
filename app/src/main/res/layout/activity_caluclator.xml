@@ -26,8 +26,8 @@
         android:text="Result TextView"
         android:textSize="25sp" />
 
-    <LinearLayout
-       style="@style/buttonRow"/>
+    <LinearLayout style="@style/buttonRow" />
+
     <LinearLayout
         style="@style/buttonRow"
         android:layout_marginTop="30dp">
@@ -36,72 +36,91 @@
             style="@style/buttonOperator"
             android:text="AC" />
 
-        <Button style="@style/buttonNumber"
-            android:visibility="gone"/>
+        <Button
+            style="@style/buttonNumber"
+            android:visibility="gone" />
 
-        <Button style="@style/buttonOperator"
-            android:text="Clear"/>
+        <Button
+            style="@style/buttonOperator"
+            android:text="Clear" />
 
-        <Button style="@style/buttonOperator"
-            android:text="/"/>
+        <Button
+            style="@style/buttonOperator"
+            android:text="/" />
     </LinearLayout>
 
     <LinearLayout style="@style/buttonRow">
 
-        <Button style="@style/buttonNumber"
-            android:text="7"/>
+        <Button
+            style="@style/buttonNumber"
+            android:text="7" />
 
-        <Button android:text="8"
-            style="@style/buttonNumber" />
+        <Button
+            style="@style/buttonNumber"
+            android:text="8" />
 
-        <Button android:text="9"
-            style="@style/buttonNumber" />
+        <Button
+            style="@style/buttonNumber"
+            android:text="9" />
 
-        <Button android:text="X" style="@style/buttonOperator" />
+        <Button
+            style="@style/buttonOperator"
+            android:text="X" />
     </LinearLayout>
 
     <LinearLayout style="@style/buttonRow">
 
-        <Button style="@style/buttonNumber"
-            android:text="4"/>
+        <Button
+            style="@style/buttonNumber"
+            android:text="4" />
 
-        <Button style="@style/buttonNumber"
-            android:text="5"/>
+        <Button
+            style="@style/buttonNumber"
+            android:text="5" />
 
-        <Button style="@style/buttonNumber"
-            android:text="6"/>
+        <Button
+            style="@style/buttonNumber"
+            android:text="6" />
 
-        <Button style="@style/buttonOperator"
-            android:text="-"/>
+        <Button
+            style="@style/buttonOperator"
+            android:text="-" />
     </LinearLayout>
 
     <LinearLayout style="@style/buttonRow">
 
-        <Button style="@style/buttonNumber"
-            android:text="1"/>
+        <Button
+            style="@style/buttonNumber"
+            android:text="1" />
 
-        <Button style="@style/buttonNumber"
-            android:text="2"/>
+        <Button
+            style="@style/buttonNumber"
+            android:text="2" />
 
-        <Button style="@style/buttonNumber"
-            android:text="3"/>
+        <Button
+            style="@style/buttonNumber"
+            android:text="3" />
 
-        <Button style="@style/buttonOperator"
-            android:text="+"/>
+        <Button
+            style="@style/buttonOperator"
+            android:text="+" />
 
     </LinearLayout>
 
     <LinearLayout style="@style/buttonRow">
 
-        <Button style="@style/buttonNumber"
-            android:text="."/>
+        <Button
+            style="@style/buttonNumber"
+            android:text="." />
 
-        <Button style="@style/buttonNumber"
-            android:text="0"/>
+        <Button
+            style="@style/buttonNumber"
+            android:text="0" />
 
-        <Button style="@style/buttonOperator"
-            android:text="="
-            android:layout_weight="2"/>
+        <Button
+            style="@style/buttonOperator"
+            android:layout_weight="2"
+            android:text="=" />
     </LinearLayout>
 
 </LinearLayout>
